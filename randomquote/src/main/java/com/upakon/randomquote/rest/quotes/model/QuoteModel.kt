@@ -1,4 +1,4 @@
-package com.upakon.randomquote.quotes.model
+package com.upakon.randomquote.rest.quotes.model
 
 
 import com.google.gson.annotations.SerializedName
