@@ -8,6 +8,6 @@ import retrofit2.http.GET
 interface QuoteService {
 
     @GET(RANDOM_QUOTE)
-    suspend fun getRandomQuote() : Response<List<QuoteModel>>
+    suspend fun getRandomQuote() : Response<ArrayList<QuoteModel>>
 
 }
